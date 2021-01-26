@@ -1,6 +1,9 @@
 import React from 'react'
 import { createContext } from 'react'
 import {Collapse,render} from 'react'
+import './index.css';
+
+
 
 // import ComA from './ComA'
 import Data from './Data';
