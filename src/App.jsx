@@ -1,7 +1,7 @@
 import React from 'react'
-import { createContext } from 'react'
 import {Collapse,render} from 'react'
 import './index.css';
+import Products from './Products'
 
 
 
@@ -14,14 +14,19 @@ import { Navbar,Nav, NavDropdown} from 'react-bootstrap'
 
 import Header from './Header'
 import Home from './Home'
+ 
 
 const App = () => {
     return (
         <>
         <Header/>
         <Home/>
+      
         </>
     )
 }
 
+
 export default App;
+
+// for (let i=-1; i<arr.length; i++)

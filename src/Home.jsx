@@ -2,9 +2,9 @@ import React from 'react'
 import { createContext ,useState,render} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  'react-bootstrap'
-
+import Products from './Products'
 import Header from './Header'
-
+import picc from '../src/pic1.jpg'
 // import { Navbar,Nav, NavDropdown} from 'react-bootstrap'
 
 
@@ -12,26 +12,23 @@ const Home = () => {
     return(
       <>
 
-
+      
       <div  className='firstp'  >
 <h1>THEME INTERIOR </h1>
      <p>WE CREATE HOMES</p>
                 </div>  
+<div className='PR' >
 
-      
-
-      <div className="SaleS">
-        <h3>
-          FURNITURES
-        </h3>
-        <li> <a href=""> Sofas </a> </li>
-        <li> <a href=""> Coffee Tables </a> </li>
-        <li> <a href=""> Bed </a> </li>
-        <li> <a href="">  Cupboards </a> </li>
-      </div>
-    
+      <Products
+      name='TABLES'
+      img={picc}
+      description='THIS IS A TABLE'
+      />
 
 
+   
+
+</div>
       </>
     )
    
