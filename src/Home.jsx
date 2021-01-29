@@ -1,5 +1,5 @@
 import React from 'react'
-import { createContext, useState, render } from 'react'
+import {usestate ,  createContext, useState, render } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap'
 import Products from './Products'
@@ -8,9 +8,28 @@ import picc from '../src/pic1.jpg'
 import { Slide, Zoom, LightSpeed ,Fade} from 'react-reveal';
 // import { Fade } from 'react-bootstrap';
 // import { Navbar,Nav, NavDropdown} from 'react-bootstrap'
-
+import Furniture from './Data'
 
 const Home = () => {
+
+function furnitures(val){
+return(
+      <>
+                   <Products
+                              name={val.name}
+                              img={val.img}
+                              description={val.description}
+                        />
+
+
+      </>
+)
+}
+
+
+
+
+
       return (
             <>
 
@@ -28,14 +47,15 @@ const Home = () => {
 
 
                   <div className='SaleS'>
-                        <Products
+                        
+                  {Furniture.map(furnitures)}
+                        
+                        {/* <Products
                               name='TABLES'
                               img={picc}
                               description='13000PKR'
                         />
 
-
-
                         <Products
                               name='TABLES'
                               img={picc}
@@ -53,6 +73,8 @@ const Home = () => {
                               img={picc}
                               description='THIS IS A TABLE'
                         />
+                   */}
+
                   </div>
 
             </>
