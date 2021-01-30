@@ -18,14 +18,34 @@ import Home from './Home'
 import { Route, Switch } from 'react-browser-router'
 
 const App = () => {
+
+
+    
+    const Preloader=()=>{
+        return(
+  <>
+              <div className="loader" 
+              onLoad={hide} 
+              id='loader'>
+                    <h5>loading</h5>
+              </div>
+  
+              </>
+        )
+  }
+  
+  function hide(){
+        document.getElementById('loader').style.display='hide'
+  }
+
+
+
     return (
         <>
             <Switch>
             </Switch>
                
                 <Header />
-
-
 
 
                 <Home />

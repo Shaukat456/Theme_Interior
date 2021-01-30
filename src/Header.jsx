@@ -7,7 +7,7 @@ import {Fade} from 'react-reveal'
 const Header=()=>{
     return(
         <>
-<Fade>      
+     
 <Navbar collapseOnSelect fixed='top' expand="lg" bg="light" variant="light">
   <Navbar.Brand href="#home"    >   React </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -31,7 +31,6 @@ const Header=()=>{
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-</Fade>
 
         </>
     )

@@ -1,23 +1,29 @@
 *{  margin: 0px;
     padding: 0px;
         box-sizing: border-box;
+      
 }
 
 body{
-    height: 2000px;
+    /* height: 2000px; */
     /* background-image: url(); */
-    background-color: rgb(77, 60, 60);
+    /* background-color:rgb(0, 79, 82); */
+    background-color:rgb(39, 37, 37);
+
 }
 
 body::before{
     content: '';
     position: absolute;
-    background: url('/src/pcc.jpg') no-repeat  center center/cover;
+    background-color: rgb(0, 79, 82);
+    background-color:rgb(39, 37, 37);
+
+    /* background: url('/src/pcc.jpg') no-repeat  center center/cover; */
     height: 80%;
     width: 100%;
-    filter: blur(4px);
+    /* filter: blur(4px); */
     z-index: -1;
-    border: 12px solid black;
+    /* border: 12px solid black; */
 
     /* animation: body 2s ease .1s 1; */
 }
@@ -55,7 +61,7 @@ body::before{
     /* background-color: aqua; */
     transform: skewX(6deg);
     transition: all .5s ease;
-    color: wheat;
+    color: white;
 
     animation: firstp .2s ease .1s;
 }
@@ -83,18 +89,20 @@ body::before{
 }
 .firstp p{
     font-size: 2em;
-    color:whitesmoke;
+    color:white;
 }
 
 
 /* Sales Section */
 .SaleS{
     position: absolute; 
-    top: 93%;
+    top: 78%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:rgb(39, 37, 37);
+    color: white;
     /* justify-content: center; */
     /* margin: ; */
 }
@@ -137,3 +145,17 @@ body::before{
     border-top: 2px solid black;
 }
 
+#loader{
+animation: lo 10s ease  
+}
+@keyframes lo{
+    from{
+        transform: scale(2.2);
+        
+    }
+    to{
+        background-color:black;
+        opacity: 1
+        ;
+    }
+}

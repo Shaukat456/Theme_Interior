@@ -12,6 +12,9 @@ import Furniture from './Data'
 
 const Home = () => {
 
+
+
+
 function furnitures(val){
 return(
       <>
@@ -26,10 +29,6 @@ return(
 )
 }
 
-
-
-
-
       return (
             <>
 
@@ -42,6 +41,8 @@ return(
 
                         </Fade>
 
+
+                        {/* <button>       <sup>                SHOP NOW         </sup>  </button>  */}
                   </div>
 
 
