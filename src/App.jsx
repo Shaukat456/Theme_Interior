@@ -15,40 +15,26 @@ import { Navbar, Nav, NavDropdown, Form } from 'react-bootstrap'
 
 import Header from './Header'
 import Home from './Home'
+import About from './About'
 import { Route, Switch } from 'react-browser-router'
 
 const App = () => {
 
 
     
-    const Preloader=()=>{
-        return(
-  <>
-              <div className="loader" 
-              onLoad={hide} 
-              id='loader'>
-                    <h5>loading</h5>
-              </div>
-  
-              </>
-        )
-  }
-  
-  function hide(){
-        document.getElementById('loader').style.display='hide'
-  }
-
-
+    
 
     return (
         <>
             <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
             </Switch>
                
                 <Header />
 
 
-                <Home />
+                {/* <Home /> */}
 
 
 
@@ -65,4 +51,21 @@ const App = () => {
 
 export default App;
 
-// for (let i=-1; i<arr.length; i++)
+
+
+// const Preloader=()=>{
+//     return(
+// <>
+//           <div className="loader" 
+//           onLoad={hide} 
+//           id='loader'>
+//                 <h5>loading</h5>
+//           </div>
+
+//           </>
+//     )
+// }
+
+// function hide(){
+//     document.getElementById('loader').style.display='hide'
+// }
