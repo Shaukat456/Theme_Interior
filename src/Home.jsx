@@ -8,6 +8,7 @@ import picc from '../src/pic1.jpg'
 import { Slide, Zoom, LightSpeed ,Fade} from 'react-reveal';
 // import { Fade } from 'react-bootstrap';
 // import { Navbar,Nav, NavDropdown} from 'react-bootstrap'
+import About from './About'
 import Furniture from './Data'
 
 const Home = () => {
@@ -77,7 +78,9 @@ return(
                    */}
 
                   </div>
-
+               
+      
+                 
             </>
       )
 

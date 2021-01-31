@@ -159,7 +159,45 @@ animation: lo 10s ease
         ;
     }
 }
+.About  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
 
-.Aboutimg{
-    height: 200px;
 }
+#foun{
+    display: flex;
+    justify-content: center;
+    /* width: 200px; */
+    align-items: center;
+    color: wheat;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.About p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 5%; */
+    justify-content: center;
+    padding-top: 9%;
+    
+        /* background-color: ; */
+    /* background-color:rgb(39, 37, 37); */
+    color: wheat;
+}
+#abpic{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 19em;
+    padding-right: 20px;
+    padding-left: 10px;
+    
+
+}
+
+
