@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap'
 import Products from './Products'
 import Header from './Header'
+// import Home from './Home'
 import picc from '../src/pic1.jpg'
 import { Slide, Zoom, LightSpeed ,Fade} from 'react-reveal';
 // import { Fade } from 'react-bootstrap';
@@ -15,7 +16,7 @@ const Home = () => {
 
 
 
-
+//Component Rendering
 function furnitures(val){
 return(
       <>
@@ -32,7 +33,7 @@ return(
 
       return (
             <>
-
+                
                   <div className='firstp'  >
                         <Fade bottom>
                               <h1>THEME INTERIOR </h1>

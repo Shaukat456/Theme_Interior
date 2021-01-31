@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar,Nav, NavDropdown} from 'react-bootstrap'
+import { Navbar,Nav, NavDropdown, NavLink} from 'react-bootstrap'
 import pi1 from '../src/picc.png'
 import {Fade,Slide,LightSpeed,Bounce} from 'react-reveal'
 
@@ -9,13 +9,13 @@ const Header=()=>{
         <>
      
 <Navbar collapseOnSelect fixed='top' expand="lg" bg="light" variant="light">
-<Fade bottom left> <Navbar.Brand href="#home" >   Theme Interior  </Navbar.Brand>   </Fade>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+<Fade bottom left><Navbar.Brand href=".firstp" >   Theme Interior  </Navbar.Brand>   </Fade>
+ <Slide> <Navbar.Toggle aria-controls="responsive-navbar-nav" /> </Slide>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-       <Nav.Link href="#features">Features</Nav.Link>   
+    <NavLink   >         Features </NavLink>  
           <Nav.Link href="#pricing">Price Search</Nav.Link>
-      <NavDropdown title="Dropdown"  style={{transition:'all .5s ease '}}  id="collasible-nav-dropdown"> 
+      <NavDropdown title="Dropdown"   id="collasible-nav-dropdown"> 
       <Slide top>
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

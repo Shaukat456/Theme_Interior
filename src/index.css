@@ -159,7 +159,7 @@ animation: lo 10s ease
         ;
     }
 }
-.About  {
+.About{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,14 +167,14 @@ animation: lo 10s ease
 
 }
 #foun{
-    display: flex;
+    display: block;
     justify-content: center;
     /* width: 200px; */
     align-items: center;
     color: wheat;
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
-
+    margin: auto;
 }
 
 .About p {
