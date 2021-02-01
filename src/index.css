@@ -96,7 +96,7 @@ body::before{
 /* Sales Section */
 .SaleS{
     position: absolute; 
-    top: 78%;
+    top: 167%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,45 +159,34 @@ animation: lo 10s ease
         ;
     }
 }
+
+
 .About{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: wheat;
-
-}
-#foun{
-    display: block;
-    justify-content: center;
-    /* width: 200px; */
-    align-items: center;
-    color: wheat;
-    font-size: 4em;
-    text-align: center;
-    margin: auto;
-}
-
-.About p {
+    position: absolute;
+    top:80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* margin-top: 5%; */
-    justify-content: center;
-    padding-top: 9%;
-    
-        /* background-color: ; */
-    /* background-color:rgb(39, 37, 37); */
-    color: wheat;
-}
-#abpic{
-    display: flex;
     /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
+    text-align: center;
+    background-color:rgb(39, 37, 37);
+    color: white;
+    /* background-color: initial; */
+    border-top: 1px solid white;
+    padding: 2%;
+}
+.About img{
+    position: relative;
+    top: 5%;
     height: 19em;
-    padding-right: 20px;
-    padding-left: 10px;
+    width: 19em;
+    z-index: 4;
+   
     
+}
+.About h1{
+    font-size: 6em;
+    position: relative;
+    top: 10%;
 
 }
-
-

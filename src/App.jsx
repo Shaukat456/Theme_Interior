@@ -26,14 +26,15 @@ const App = () => {
 
     return (
         <>
-            <Switch>
+            {/* <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About}  />
-            </Switch>
+            </Switch> */}
                 
 
-              <Header/>
               <Home/>
+              <Header/>
+              <About/>
              
  {/* <About/> */}
 
