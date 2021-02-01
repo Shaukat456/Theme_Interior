@@ -20,23 +20,16 @@ import { Route, Switch } from 'react-browser-router'
 
 const App = () => {
 
-
-    
-    
-
     return (
         <>
-            {/* <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About}  />
-            </Switch> */}
+         
                 
 
               <Home/>
               <Header/>
               <About/>
              
- {/* <About/> */}
+
 
            
 
