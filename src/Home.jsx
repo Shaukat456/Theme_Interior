@@ -49,10 +49,10 @@ return(
 
 
 
-                  <div className='SaleS'>
+                  {/* <div className='SaleS'>
                         
                   {Furniture.map(furnitures)}
-                        
+                         */}
                         {/* <Products
                               name='TABLES'
                               img={picc}
@@ -78,7 +78,7 @@ return(
                         />
                    */}
 
-                  </div>
+                  {/* </div> */}
                
       
                  

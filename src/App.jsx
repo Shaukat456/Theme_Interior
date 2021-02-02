@@ -17,17 +17,23 @@ import Header from './Header'
 import Home from './Home'
 import About from './About'
 import { Route, Switch } from 'react-browser-router'
+// import Furnitures from './Data';
+import Avail from './Avail'
 
 const App = () => {
 
     return (
         <>
-         
+            <Switch> 
+             <Route exact path='/' component={Home} />
+             <Route exact path='/about' component={About} />
+             <Route exact path='/furniture' component={Avail} />
+             </Switch>
                 
 
-              <Home/>
+              {/* <Home/> */}
               <Header/>
-              <About/>
+              {/* <About/> */}
              
 
 
