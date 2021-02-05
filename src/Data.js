@@ -2,6 +2,8 @@ import picc from '../src/pic1.jpg'
 
 
 
+
+
 const Furnitures=[
     {
         name:'TABLE',

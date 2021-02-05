@@ -1,10 +1,45 @@
-@media only screen and (max-width: 573px){
-    .SaleS img {
-        width: 81%;
+@media only screen and (max-width: 573px){ .SaleS img {
+        width: 61%;
     }
 
+.About h1 {
+    font-size: 5em;
+   
 }
-@media only screen and (max-width: 600px) {}
+
+
+.SaleS h3, .SaleS p{
+    font-size: 1em;
+}
+}
+.SaleS{
+    position: absolute;
+    top: 13%;
+}
+@media only screen and (max-width: 354px) {
+    .About h1 {
+        font-size: 2em;
+       
+    }
+    .About{
+        position: absolute;
+        top: 19%;
+    }
+    .SaleS img{
+        width: 85%;
+
+    }
+    .firstp h1 {
+        font-size: 3em;
+    }
+    .firstp p{
+        font-size: 1em;
+    }
+    .About img{
+        height: 21em;
+        width: 15em;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}

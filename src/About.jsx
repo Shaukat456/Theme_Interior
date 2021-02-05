@@ -3,6 +3,7 @@ import { Image, Col, Fade } from 'react-bootstrap'
 import pic from '../src/mypic.jpg'
 import 'react-reveal'
 import { Slide, LightSpeed } from 'react-reveal'
+import './mobile.css'
 
 
 
