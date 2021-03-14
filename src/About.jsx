@@ -22,12 +22,12 @@ const About = () => {
            <img   id='abpic' src={pic} alt="FOUNDER"/>
 
 
-            <Slide bottom >      <p>I am 19 and a Mern Stack Developer who develops websites for various platforms, and being a Web app developer I am familar with
+            <Slide bottom >      <p>
+                I am 19 currently in Intermediate, i am also   
+                
+                 a Mern Stack Developer who develops websites for various platforms, and being a Web app developer I am familar with
 • JAVASCRIPT (ES5/6) • CSS3 • HTML5 • EXPRESS.js. • NODE.js • REACT.js • MATERIAL UI • JWT . • GITHUB
 
-•ABLE TO BUILD RESTful-APIs with Node/Express and MongoDB.
-•Can Make Responsive Web sites for cross platforms.
-•Can maintain both frontend and backend of web application.
 
 My stack completes the full cycle of web development hence I am a Full Stack Web Developer.</p>
             </Slide>

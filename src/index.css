@@ -176,7 +176,12 @@ animation: lo 10s ease
     color: white;
     /* background-color: initial; */
     border-top: 1px solid white;
-    padding: 2%;
+    padding-top: 10%;
+}
+.About p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5em;
 }
 .About img{
     position: relative;
@@ -187,6 +192,50 @@ animation: lo 10s ease
    
     
 }
+.resume{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    justify-content: end;
+    font-family: monospace;
+    /* transform: scale(); */
+    transition: .5s ease;
+    background-color: steelblue;
+    color: black;
+
+
+}
+.resume:hover{
+    transition: .5s ease;
+    transform: skew(3deg);
+        font-size: 1.2em;
+
+    background-color: #A0522D;
+    color: white;
+
+
+    animation: r .5s ease  1; 
+    overflow: visible;
+}
+@keyframes r{
+    5%{
+        transform: skew(5deg);
+        
+    }
+    50%{
+        transform: skew(25deg);
+
+    }70%{
+        transform: skew(20deg);
+
+    }
+    99%{
+        transform: skew(0deg);
+    }
+}
+
 .About h1{
     font-size: 6em;
     position: relative;
