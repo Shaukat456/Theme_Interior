@@ -30,6 +30,7 @@ const App = () => {
           <Route exact path='/' component={Home} />
              <Route exact path='/about' component={About} />
              <Route exact path='/furniture' component={Avail} />
+             <Route exact path='/new' component={C} />
              <Redirect to='/'  />
              </Switch> 
                 

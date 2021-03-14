@@ -44,6 +44,9 @@ body::before{
 
 }
 }
+#c{
+    color: white;
+}
 
 
 
@@ -195,6 +198,8 @@ animation: lo 10s ease
   flex-wrap: wrap;
   margin-left: 5%;
   justify-content: center;
+  /* background-color: wheat; */
+  /* background-color: red; */
 
     
 }

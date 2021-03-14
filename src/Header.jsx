@@ -19,16 +19,17 @@ const Header=()=>{
     <NavLink  className='headr' to='/' >    Home </NavLink>
     </Nav.Item>
     <Nav.Item className='headr'>
-      <NavLink eventKey="link-1" to='/about' >About</NavLink>
+      <NavLink eventKey="link-1" to='/about' >About Me</NavLink>
     </Nav.Item>
     <Nav.Item className='headr' >
-      <NavLink eventKey="link-2" to='/furniture'>Furnitures</NavLink>
+      <NavLink eventKey="link-2" to='/furniture'>Works</NavLink>
     </Nav.Item>
     <Nav.Item>
       {/* <NavLink eventKey="disabled"  >
         Disabled
       </NavLink> */}
     </Nav.Item>
+      {/* <NavLink eventKey="link-3" to='/new'>new</NavLink> */}
   </Nav>
 
         </>

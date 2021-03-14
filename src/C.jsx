@@ -1,33 +1,39 @@
 import React from 'react'
+import { useState } from 'react';
 
-// class Counter extends React.Component{
-//     constructor(props){
-//         console.log('Constructed')
-//         super(props)
 
-//         this.state={
-//             counter:0
-//         }
 
-//         this.inc=()=>this.setState({counter:this.state.counter +1})
-//         this.dec=()=>this.setState({counter:this.state.counter -1})
-//     }
-//     componentDidMount(){
-//         console.log('Component did mount')
-//         alert('Component Mounted')
-//     }
+const C=()=>{
 
-//     render(){
-//         console.log('render')
+    const [Name,GetName]=useState('Your name')
+    const [NewName ,ShowName]=useState()
+    function Ch(e){
+        GetName(e.target.value )
+    }
 
-//         return <div>
-//             <button onClick={this.dec}>decrease</button>
-//             <button onClick={this.inc}>increase</button>
-//            <h1>     Counter:{this.state.counter}</h1> 
-//         </div>
-//     }
-//     componentDidUpdate(prevProps,prevState,snapshot){
-//         console.log('Component did update')
+    function named (){
+        ShowName('hello ')
 
-//     }
+    
+    }
+
+
+   return(
+       <>
+        <div id='c'> 
+   <h1> {Name}</h1>
+   <input type="text" onChange={Ch} />
+    <button onClick={named}>CLICK</button>
+        </div>
+
+
+
+        
+       </>
+   ) 
+
+}
+
+
+export default C;
     

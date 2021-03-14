@@ -38,10 +38,10 @@ return(
                 
                   <div className='firstp'  >
                         <Fade bottom  duration={2500}>
-                              <h1>THEME INTERIOR </h1>
+                              <h1>SHAUKAT SOHAIL       </h1>
                         </Fade>
                         <Fade bottom  >
-                              <p>WE CREATE HOMES</p>
+                              <p>Your Idea,My Code</p>
 
                         </Fade>
                  

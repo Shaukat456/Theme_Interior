@@ -17,6 +17,7 @@
     top: 13%;
 }
 @media only screen and (max-width: 354px) {
+
     .About h1 {
         font-size: 2em;
        
@@ -38,6 +39,14 @@
     .About img{
         height: 21em;
         width: 15em;
+    }
+    @media only screen and (max-width: 720px) {
+        .firstp h1 {
+            font-size: 2em;
+        }
+        .firstp p{
+            font-size: 1em;
+        }
     }
 }
 
