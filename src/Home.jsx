@@ -37,7 +37,7 @@ return(
 
                 
                   <div className='firstp'  >
-                        <Fade bottom  duration={2500}>
+                        <Fade bottom  duration={1500}>
                               <h1>SHAUKAT SOHAIL       </h1>
                         </Fade>
                         <Fade bottom  >
