@@ -24,6 +24,9 @@ const Header=()=>{
     <Nav.Item className='headr' >
       <NavLink eventKey="link-2" to='/furniture'>Works</NavLink>
     </Nav.Item>
+    <Nav.Item className='headr' >
+      <NavLink eventKey="link-2" to='/TodoApp'>Todo App </NavLink>
+    </Nav.Item>
     <Nav.Item>
       {/* <NavLink eventKey="disabled"  >
         Disabled

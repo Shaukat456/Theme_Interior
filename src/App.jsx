@@ -20,6 +20,7 @@ import { Route, Switch, Redirect } from 'react-browser-router'
 // import Furnitures from './Data';
 import Avail from './Avail'
 import C from './C'
+import Todo from './Todo'
 
 const App = () => {
 
@@ -31,6 +32,8 @@ const App = () => {
              <Route exact path='/about' component={About} />
              <Route exact path='/furniture' component={Avail} />
              <Route exact path='/new' component={C} />
+             <Route exact path='/TodoApp' component={Todo} />
+             
              <Redirect to='/'  />
              </Switch> 
                 
